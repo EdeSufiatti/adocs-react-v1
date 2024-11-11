@@ -1,0 +1,36 @@
+nav {
+    display: flex;
+    width: 100%;
+    height: 80px ;
+    justify-content: end;
+    border-bottom: 1px solid hsl(12, 70%, 50%);
+    flex-direction: column;
+    align-items: center;
+    background-color: #9069ec;
+  
+}
+
+nav > ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    background-color: #9069ec; /* Escolha a cor que preferir */
+    
+}
+
+nav > ul > li {
+    list-style: none;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 20px; /* Adiciona espaço entre os itens */
+}
+
+nav > ul > li > a {
+    text-decoration: none;
+    color: black;
+}
+nav > ul > li > a:hover {
+    color: #FFD700; /* Cor desejada ao passar o mouse */
+}
